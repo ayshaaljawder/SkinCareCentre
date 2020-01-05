@@ -1,0 +1,497 @@
+body {
+    background-color: #B1DDF1  ;
+}
+div#Header{
+    background-color: #E2DDE4;
+    width: 100%;
+    height: 6%;
+    padding-top:1%;
+    padding-bottom: 1%;
+    margin: 2% auto;
+    box-sizing: border-box;
+    line-height: 100%;
+    border-radius:50%;
+    text-align: center;
+    position: relative;
+    clear: both;
+    overflow: auto;
+}
+/* For Large Phones and smaller*/
+@media only screen and (max-width: 768px){
+    div#Header{
+        line-height: 150%;
+        clear: both;
+        padding:5%;   
+}
+}
+h1{
+  font-family: 'Courier New', Courier, monospace; 
+  color:#FFFFFF ; 
+  font-weight: bold;
+  font-size:250%;
+}
+h2{
+    font-family: Verdana, 'Segoe UI', Tahoma ;
+    color:#46778D; 
+    font-size: 120%;
+    text-indent:3%;
+}
+a.NoLine{
+text-decoration: none;
+color:#FFFFFF ; 
+}
+div#Navigation{
+    background-color: #FFFFFF;
+    height: auto;
+    width:auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin: 2% auto;
+    box-sizing: border-box;
+    border-radius: 15%;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 25% 25%;
+    grid-template-rows: 60% 60%;
+    justify-content: center;
+    align-content: center;
+    grid-gap: 10%;
+    overflow: hidden;
+    clear: both; 
+}
+/* For Large Phones and smaller*/
+@media only screen and (max-width: 768px){
+    div#Navigation{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+}
+div#Box1{
+background-color: #E2DDE4;
+box-shadow: 0.7em 0.7em #95A1A8;
+max-height: 80%;
+max-width:100%;
+padding: 10%;
+margin: auto;
+box-sizing: border-box;
+line-height: 100%;
+border-radius:20%;
+overflow: visible;
+text-align: center;
+cursor: pointer;
+position: relative;
+} 
+@media only screen and (max-width: 768px){
+div#Box1{
+    max-height: 50%;
+    max-width: 80%;
+    font-size: 70%;
+    margin: 10%;
+}
+}
+/* Create a clickable button*/
+#Box1:hover {
+    background-color: #C2BFC4;
+}
+#Box1:active {
+    background-color: #C2BFC4;
+    box-shadow: 0.5em 0.5em #A5B3BB;
+    transform: translateY(2%);
+}
+div#Box2{
+background-image: linear-gradient(-90deg,#46778D,#B1DDF1);
+box-shadow: 0.7em 0.7em #335564;
+height: 80%;
+width:100%;
+padding: 10%;
+margin: auto;
+box-sizing: border-box;
+line-height: 100%;
+border-radius:20%;
+overflow: visible;
+text-align: center;
+cursor: pointer;
+} 
+@media only screen and (max-width: 768px){
+    div#Box2{
+        max-height: 50%;
+        max-width: 80%;
+        font-size: 70%;
+        margin: 10%;
+    }
+}
+div#Box3{
+background-color: #082A43;
+box-shadow: 0.7em 0.7em #335564;
+background-repeat: no-repeat;
+background-size: cover ;
+height: 80%;
+width:100%;
+padding: 10%;
+margin: auto;
+box-sizing: border-box;
+overflow: visible;
+border-radius:20%;
+overflow:visible;
+text-align: center;
+cursor: pointer;
+} 
+/* For Large Phones and smaller*/
+@media only screen and (max-width: 768px){
+    div#Box3{
+        max-height: 50%;
+        max-width: 80%;
+        font-size: 70%;
+        margin: 10%;
+    }
+}
+div#Box4{
+background-color: #90969A;
+box-shadow: 0.7em 0.7em #6B6F72;
+height: 80%;
+width:100%;
+padding:10%;
+margin: auto;
+box-sizing: border-box;
+overflow: visible;
+border-radius:20%;
+line-height: 100%;
+} 
+/* For Large Phones and smaller*/
+@media only screen and (max-width: 768px){
+    div#Box4{
+        max-height: 50%;
+        max-width: 80%;
+        font-size: 70%;
+        margin: 10%;
+    }
+}
+/* Create a clickable button*/
+#Box4:hover {
+    background-color: #696D6F;
+}
+#Box4:active {
+    background-color: #696D6F;
+    box-shadow: 0.5em 0.5em #A5B3BB;
+    transform: translateY(2%);
+}
+a.NoLine1{
+    text-decoration: none;
+    color:#FFFFFF;
+}
+h3{
+font-family: 'Courier New', Courier, monospace;
+font-weight: bold ;
+font-size: 120%;
+line-height: 100%;
+}
+p.Desc{
+    font-family: Verdana, 'Segoe UI', Tahoma ;
+    color:#FFFFFF;
+    font-size: 80%;
+}
+a.Noline1:visited{
+    color:#082A43;
+}
+/*When the viewer goes over the link*/
+a.NoLine1:hover{
+    color:#0F5A92;
+    text-decoration: underline;
+}
+div.Header2{
+    background-color: #E2DDE4;
+    width: 100%;
+    height: 6%;
+    padding-top:1%;
+    padding-bottom: 1%;
+    margin: auto;
+    box-sizing: border-box;
+    border-radius:1%;
+    line-height: 100%;
+    text-align: left;
+    text-indent: 2%;
+    overflow: auto;
+    position: relative;
+    clear: both;
+}
+/* For Large Phones and smaller*/
+@media only screen and (max-width: 768px){
+    div.Header2{
+        text-align:center;   
+        line-height: 120%;       
+}
+}
+.Navigation{
+    margin: auto;
+    width: 100%;
+    text-align: center;  
+}
+ul#Nav{
+    background-image: linear-gradient(-90deg,#46778D,#B1DDF1);
+    list-style-type: none;
+    margin:auto;
+    padding:1% 0% 1% 0%;
+    text-align: center;
+    overflow: hidden;
+    box-sizing: border-box;
+    display:block;
+    width:100%;
+}
+li.nav{
+    display:inline;
+    padding:0% 3%;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold ;
+    font-size: 100%;
+    text-align: center;
+    border-style: dotted;
+    border-color: #335564;
+    box-sizing: border-box;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+/* For Large Phones and smaller*/
+@media only screen and (max-width: 768px){
+    li.nav{
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+}
+li.nav a{
+    text-decoration: none;
+    color:#FFFFFF;
+    display:inline-block;
+}
+/*When the viewer goes over the link*/
+li.nav a:hover{
+    color:#0F5A92;
+    text-decoration: underline;
+}
+/*The link of the current page*/
+a.Active{
+    color:#003459 ;
+    text-decoration: underline;
+}
+div.Content{
+    background-color: #FFFFFF;
+    height: auto;
+    width:auto;
+    padding: 3%;
+    margin: 1% auto;
+    box-sizing: border-box;
+    border-radius: 5%;
+    text-align: left;
+    overflow: auto;
+}
+h4{
+    text-align: center;
+    font-family: Verdana, 'Segoe UI', Tahoma;
+    font-size: 140%;
+    color:#003459;
+}
+div.ContentList{
+    padding-top: 2%;
+    text-align: center;
+    margin:auto;
+    list-style-position: inside;
+    list-style-type: none;
+    box-sizing: border-box;
+    padding-right: 5%;
+}
+ul.ContentList li a{
+    text-decoration: none;
+    color: rgb(136, 150, 156); 
+    font-size: 120%;
+}
+/*When the viewer goes over the link*/
+ul.ContentList li a:hover{
+    color:#0F5A92;
+    text-decoration: underline;
+}
+h5{
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 3%; 
+    font-size: 120%;
+    padding-left:2%;
+    color:#003459;
+}
+table{
+    margin:auto;
+    border-collapse: collapse;
+    padding: 2%;
+    box-sizing: border-box;
+    width:100%;
+    display: block;
+    overflow-x: auto;
+}
+td{
+    border: 0.2em dashed #B1DDF1;
+    padding:2%;
+}
+/*Removes the top and left border for only the first row*/
+table tr:first-child td {
+    border-top: 0em;
+    text-align: left;
+    font-size: 110%;
+    font-family: Verdana, 'Segoe UI', Tahoma;
+    color:#6B6F72;
+    border-left: 0em;
+    font-weight: bold;
+  }
+/*Removes the bottom border for only the last row */
+table tr:last-child td {
+    border-bottom: 0em;
+}
+/*Includes the first column except the first row*/
+table tr td:first-child:not(.TableH1) {
+  border-left: 0em;
+  box-sizing: border-box;
+  width:20%;
+  text-align: center;
+  color:#082A43;
+  font-weight: bold;
+  font-size:100%;
+}
+/*When the viewer is directed to the term through the link*/
+td:target{
+    background-color: #90969A; 
+}
+/*Includes the last column except the first row*/
+table tr td:last-child:not(.TableH2){
+  border-right: 0em;
+  font-family: 'Times New Roman', Times, serif;
+  color: #000000;
+  font-size: 100%;
+}
+.TableH2{
+    border-right: 0em;
+}
+#AboutMe{
+    display: inline-grid;
+    grid-template-columns: 40% 40%;
+    grid-gap: 1%;
+    overflow: hidden ;
+    justify-content: space-evenly;
+    margin: 2% auto;
+    box-sizing: border-box;
+    padding-bottom: 1%;
+}
+/* For Large Phones and smaller*/
+@media only screen and (max-width: 768px){
+    div#AboutMe{
+        display: flex;
+        flex-direction: column;
+        width: 90%;     
+}
+}
+.AboutMeBox{
+    background-color: #46778D;
+    height: 100%;
+    width:100%;
+    padding:4%;
+    margin: auto;
+    box-sizing: border-box;
+    overflow: visible;
+    border-radius:20%;
+    line-height: 100%;
+}
+/* For Large Phones and smaller*/
+@media only screen and (max-width: 768px){
+    div.AboutMeBox{
+       margin: 10% auto;     
+}
+}
+.AMH{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 120%;
+    color:#FFFFFF;
+    text-align: center;
+    font-weight: bold;
+}
+.AMP{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: #E2DDE4;
+    font-size: 100%;
+}
+div.Reviews{
+    display: grid;
+    grid-gap: 0.5%;
+    grid-template-columns: auto auto auto auto;
+    grid-auto-rows: auto;
+    align-content: space-evenly;
+    overflow: hidden;
+    margin: auto;
+    padding:4% 2%;
+    box-sizing: border-box;
+}
+/* For Large Phones and smaller*/
+@media only screen and (max-width: 768px){
+    div.Reviews{
+       display: grid;
+       grid-template-columns: auto auto;
+       grid-auto-rows: auto;
+
+}
+}
+/* For Large Laptops*/
+@media only screen and (min-width: 1320px) {
+    div.Reviews{
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto;
+        grid-auto-rows: auto;
+    }
+}
+div.Products{
+    text-align: left;
+    font:100%;
+    color:#000000;
+    overflow: visible;
+    padding-left: 0% ;
+    padding-right: 2%;
+    padding-bottom: 5%;
+    box-sizing: border-box;
+}
+div.Image{
+    max-width: 100%;
+    max-height: 100%;
+    padding-right:0%;
+    box-sizing: border-box;
+}
+div.Image img{
+    width:100%;
+    height: 100%;
+}
+
+ul.Review li{
+    text-align: left;
+    color: #000000;
+    font-size: 100%;
+    list-style-type: none;
+}
+ul.Review li span{
+    color: #082A43;
+    font-size: 100%;
+    font-weight: bold;
+    text-decoration: underline;
+}
+ul.Review li a{
+    text-decoration: none;
+    color: #082A43; 
+    font-size: 100% ;
+}
+/*When the viewer goes over the link*/
+ul.Review li a:hover{
+    color:#0F5A92;
+}
+span.fa{
+    text-decoration: none;
+}
+p#Comment{
+    text-indent: 10%;
+    font-size: 90%;
+    color:#000000;
+    font-style: italic;
+}
